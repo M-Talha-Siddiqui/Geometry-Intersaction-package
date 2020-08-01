@@ -85,7 +85,7 @@ class Sphere:
         self._radius = radius
     
     def __repr__(self):
-        return f"Origin point({self._point}), Radius({self.radius})"
+        return f"Origin point({self._point}), Radius({self._radius})"
     
     def __eq__(self, other):
         if np.array_equal(other._point, self._point) == True:
