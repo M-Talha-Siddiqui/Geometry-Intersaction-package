@@ -1,4 +1,4 @@
-from pygeo.objects import Ray,Sphere,Triangle
+from pygeo.objects import Ray,Sphere,Triangle,Ray ,Vector
 import numpy as np
 import math
 
