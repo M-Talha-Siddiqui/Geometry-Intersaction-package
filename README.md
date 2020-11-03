@@ -41,8 +41,3 @@ Tasks
 
 1. Implement the missing `_intersect_ray_and_sphere` function. You may follow [this article](https://en.wikipedia.org/wiki/Line%E2%80%93sphere_intersection), but keep in mind that for a ray the parameter `d` mentioned in the article must be larger or equal to zero. Provide tests for this method.
 
-As an optional extra exercise, implement
-
-1. the missing `Triangle` class,
-1. the missing `_intersect_ray_and_triangle` function and accompanying tests, and
-1. the missing `intersect` that calls either `_intersect_ray_and_sphere` or `_intersect_ray_and_triangle` depending on the arguments.
